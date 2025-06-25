@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "zootopia-test",
+          "appId": "1:985276660532:android:6ab910e450922935360361",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "zootopia-test",
+          "appId": "1:985276660532:ios:640b1b5167113159360361",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "zootopia-test",
+          "appId": "1:985276660532:ios:640b1b5167113159360361",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "zootopia-test",
+          "configurations": {
+            "android": "1:985276660532:android:6ab910e450922935360361",
+            "ios": "1:985276660532:ios:640b1b5167113159360361",
+            "macos": "1:985276660532:ios:640b1b5167113159360361",
+            "web": "1:985276660532:web:656a288dd554638e360361",
+            "windows": "1:985276660532:web:f5e4f53e8b3dbe86360361"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
